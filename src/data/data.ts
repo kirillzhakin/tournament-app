@@ -1,4 +1,6 @@
-export const players = [
+import type { Player } from "@/types";
+
+export const DATA_TABLE: Player[] = [
   {
     tm_id: "1309866",
     freeze_stage: "75412",
@@ -696,6 +698,8 @@ export const players = [
     sportbook_status: "0",
     sportbook_valid: "1900-01-01",
     stage: "ОТ",
+    join_date: "",
+    comment: "",
   },
   {
     tm_id: "1309880",
