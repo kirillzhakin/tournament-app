@@ -4,9 +4,9 @@
       <v-toolbar-title class="white--text">Таблицы</v-toolbar-title>
     </v-app-bar>
 
-    <v-content>
+    <v-main>
       <slot />
-    </v-content>
+    </v-main>
 
     <v-footer app color="primary">
       <span class="white--text">&copy; Кирилл Жакин {{ currentYear }}</span>
